@@ -1,7 +1,7 @@
 # chat 提示词模版
 
 from dotenv import load_dotenv
-from langchain.prompts.chat import ChatPromptTemplate
+from langchain.prompts import ChatPromptTemplate
 import os
 from rich import print as rprint
 from langchain_openai import ChatOpenAI
