@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
+from langchain_openai import ChatOpenAI, OpenAI
 import os
 from rich import print as rprint
 
